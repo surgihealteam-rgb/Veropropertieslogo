@@ -1,0 +1,29 @@
+{
+  "properties": [],
+  "schema": {
+    "property_id": "string",
+    "title": "string",
+    "slug": "string",
+    "property_type": "Residential | Plot / Land | Apartment | Villa | Commercial | Other",
+    "purpose": "Buy | Sell | Invest",
+    "location": "string",
+    "city": "string",
+    "locality": "string",
+    "price": "number/string",
+    "area": "string",
+    "bedrooms": "number",
+    "bathrooms": "number",
+    "status": "Available | Sold | Reserved",
+    "featured": "boolean",
+    "description": "string",
+    "highlights": ["string"],
+    "amenities": ["string"],
+    "latitude": "number",
+    "longitude": "number",
+    "images": ["string"],
+    "documents": ["private file references — never expose publicly"],
+    "verification_status": "Pending | Reviewed | Verified",
+    "created_at": "ISO date",
+    "updated_at": "ISO date"
+  }
+}
